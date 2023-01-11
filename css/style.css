@@ -10,13 +10,43 @@ h1 { font-size: 3em;
     max-width: 1024px;
     margin-right:auto;
     margin-left:auto;
-    margin-bottom: 8px;
+    margin-bottom: 0.2em;
 }
 
 .banner-top {
     display: flex;
 }
 
-.product-card {
+.main-menu {
     display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    background-color: #FDC92E;
+    min-height: 2em;
+    
+   
+}
+.main-menu-item {
+    display: flex;
+    align-items: center;
+    min-height: 2em;
+    background-color: #FDC92E;
+    padding: 0em 1em 0em 1em;
+    font-weight: bold;
+}
+
+.main-menu-item:hover{
+    background-color: #3a2f0c;
+    color: white;
+}
+
+.products-line {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-top: 2em;
+}
+
+.product-card {
+    display: flex;   
 }
