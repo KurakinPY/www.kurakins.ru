@@ -1,6 +1,17 @@
 h1 { font-size: 3em;}
 h2 { font-size: 1.5em; font-weight: bold;}
 h3 { font-size: 1em;}
+
+li {
+    list-style-type:disc;
+    margin-top: 8px;
+}
+
+ul {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
 /*================================================*/
 .container {
     display: flex;
@@ -63,18 +74,25 @@ h3 { font-size: 1em;}
 .product-description {
     padding: 5px;
 }
-.product-description em {
+em {
     float: right;
     font-weight: bold;
     font-style: normal;
 }
+.description-list-title {
+    font-weight: bold;
+    font-style: normal;
+}
 .product-description ul {
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.product-description li {
+    list-style-type:disc;
+    margin-top: 8px;
 }
 
 /*================================================*/
-
 .btn-order {
     position: relative;
     width: 70%;
@@ -91,4 +109,15 @@ h3 { font-size: 1em;}
 .btn-order:hover {
     background-color: #3a2f0c;
     color: white;
+}
+
+/*================================================*/
+.faq-title {
+    width:100%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 15px 15px 15px 15px;
+
+}
+.faq-content {
+    margin-top: 25px;
 }
