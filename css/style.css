@@ -25,16 +25,28 @@ ul {
     margin-bottom: 0.2em;
 }
 
+.box-shadow {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2), 5px 5px 5px rgba(0,0,0,0.2);
+}
+.bold-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bold-link:hover {
+    color: darkmagenta;
+}
+
 /*================================================*/
 .banner-top {
     display: flex;
+    overflow: hidden;
 }
 
 /*================================================*/
 .main-menu {
     display: flex;
     justify-content: space-between;
-    min-width: 100%;
+    width: 100%;
     background-color: #FDC92E;
     min-height: 2em;
 }
@@ -64,8 +76,7 @@ ul {
 }
 .product-card img {
     width:100%;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-
+    height: 315px;
 }
 .product-title {
     text-align: center;
@@ -73,6 +84,9 @@ ul {
 }
 .product-description {
     padding: 5px;
+}
+.p-description {
+    height: 120px;
 }
 em {
     float: right;
@@ -104,7 +118,6 @@ em {
     font-weight: bold;
     background-color: #FDC92E;
     border-color: #FDC92E;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.30), 0 5px 5px rgba(0,0,0,0.22);
 }
 .btn-order:hover {
     background-color: #3a2f0c;
@@ -114,9 +127,11 @@ em {
 /*================================================*/
 .faq-title {
     width:100%;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin-top: 5px;
     padding: 15px 15px 15px 15px;
-
+    background:#CFC37E;
+    opacity: 0.7;
+    backdrop-filter: blur(2px);
 }
 .faq-content {
     margin-top: 25px;
