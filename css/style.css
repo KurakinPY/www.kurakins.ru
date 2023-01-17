@@ -33,7 +33,7 @@ ul {
     text-decoration: underline;
 }
 .bold-link:hover {
-    color: darkmagenta;
+    color: rgb(57, 0, 57);
 }
 
 /*================================================*/
@@ -59,7 +59,7 @@ ul {
     font-weight: bold;
 }
 .main-menu-item:hover{
-    background-color: #3a2f0c;
+    background-color: rgb(57, 0, 57);
     color: white;
 }
 
@@ -136,3 +136,39 @@ em {
 .faq-content {
     margin-top: 25px;
 }
+
+.footer{
+width: 100%;
+background:#000;
+text-align:center;
+
+}
+
+.footer .row{
+width:100%;
+margin:5px;
+padding:5px;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+margin-left: 0;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+    
+    
